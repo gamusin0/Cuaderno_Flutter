@@ -26,6 +26,6 @@ class _PantallaPrincipalState extends State<PantallaPrincipal> {
         
         child: Image.asset("assets/images/iconoPato.png"),
       )
-    );
+    ); //hola
   }
 }
