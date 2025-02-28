@@ -1,4 +1,5 @@
-import 'package:alejandra_cuaderno4/screens/PantallaPrincipal.dart';
+import 'package:alejandra_cuaderno4/screens/login/PantallaInicioSesion.dart';
+//import 'package:alejandra_cuaderno4/screens/PantallaPrincipal.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 100, 162, 237)),
         useMaterial3: true,
       ),
-      home: const PantallaPrincipal(title: 'Pantalla Principal'),
+      home: const PantallaInicioSesion(),
     );
   }
 }
